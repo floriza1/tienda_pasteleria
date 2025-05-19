@@ -1,0 +1,83 @@
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+ <!-- Carrito icono -->
+ <link href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css" rel="stylesheet">
+
+
+ <link rel="stylesheet" href="style2.css">
+
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+            <!-- Logo a la izquierda -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo/logo_saldu.jpg" alt="Delicias Dulces" height="150" width="150" class="rounded-circle" >
+            </a>
+            
+            <!-- Menú de navegación -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="mostrarSeccion('vista-destacados')">Inicio</a>
+                    </li>
+                    
+                 
+                    <!-- Bocaditos (dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="bocaditosDropdown" role="button" data-bs-toggle="dropdown">
+                            Bocaditos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('vista-productos');mostrarSeccion('cont_Bocaditos_dulces')">Dulces</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('cont_Bocaditos_salados')">Salados</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Postres (dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="postresDropdown" role="button" data-bs-toggle="dropdown">
+                            Postres
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('cont_tartas')">Tartas</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('cont_postres')">Postres</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Personales (dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="personalesDropdown" role="button" data-bs-toggle="dropdown">
+                            Personales
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('cont_Personales_dulces')">Dulces</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="mostrarSeccion('cont_Personales_salados')">Salados</a></li>
+                        </ul>
+                    </li>
+    
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="mostrarSeccion('vista-contacto')">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="mostrarSeccion('vista-nosotros')">Nosotros</a>
+                    </li>
+
+                    <li class="icono-carrito"><i class="fi fi-rr-shopping-cart"></i></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="js/main.js"></script>  -->
+<script src="js/mainProductos4.js"></script>

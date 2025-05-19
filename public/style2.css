@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* estilos header */
+header {
+    position:sticky;
+    top: 0;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    width: 100%;
+  }
+
+main {
+    flex: 1;
+    margin-top: 150px;
+}
+/*ocultar secciones hasta que se haga click*/
+.seccion-productos,
+#cont_Bocaditos_dulces,
+#cont_Bocaditos_salados,
+#cont_postres,
+#cont_tartas,
+#cont_Personales_dulces,
+#cont_Personales_salados,
+#vista-nosotros,
+#vista-contacto {
+display: none;
+
+} 
+
+:root {
+--color-crema: #fff5ed;   /* Fondo suave */
+--color-cafe: #673d20;     /* Header y Footer */
+--color-rojo: #ec3232;       /* Botones o acentos */
+--color-vainilla: #f9e4c8;  /* Color adicional (acento claro pastel) */
+}
+
+header, footer{
+background-color: var(--color-cafe);
+color:white;
+}
+.navbar .nav-link{
+ color:white;
+}
+
+.navbar .nav-link:hover {
+color: var(--color-vainilla);
+}
+
+.btn{
+background-color: var(--color-rojo);
+}
+
+/*estilos de footer  */
+.sticky-button {
+    margin-top: auto;
+}

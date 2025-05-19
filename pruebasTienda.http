@@ -1,0 +1,162 @@
+
+### Registrar un usuario
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+  "nombre": "Alberto",
+  "apellidos": "Loza",
+  "telefono": "613838388",
+  "email": "alberto@example.com",
+  "contrasenia": "alberto",
+  "rol": "ADMIN"
+}
+
+
+### Registrar un usuario
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+  "nombre": "Mónica",
+  "apellidos": "Salinas Peña",
+  "telefono" : "615888333",
+  "email": "monica@example.com",
+  "contrasenia": "monica"
+  
+}
+
+### Registrar un usuario
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+  "nombre": "Ana",
+  "apellidos": "Cavero",
+  "telefono" : "615888333",
+  "email": "ana@example.com",
+  "contrasenia": "ana"
+  
+}
+
+### Registrar un usuario
+POST http://localhost:8000/api/register.php
+Content-Type: application/json
+
+{
+  "nombre": "Rosa",
+  "apellidos": "Cavero",
+  "telefono" : "615411113",
+  "email": "rosa@example.com",
+  "contrasenia": "rosa",
+ 
+  
+}
+
+### Iniciar sesión con usuario normal
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+    
+    "email": "lola@example.com",
+    "contrasenia": "lola"
+    
+}
+
+### Iniciar sesión con usuario normal
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+    
+    "email": "ana@example.com",
+    "contrasenia": "ana"
+    
+}
+
+### Iniciar sesión con usuario normal
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+    
+    "email": "monica@example.com",
+    "contrasenia": "monica"
+    
+}
+
+### Iniciar sesión con usuario ADMIM
+POST http://localhost:8000/api/login.php
+Content-Type: application/json
+
+{
+    
+    "email": "alberto@example.com",
+    "contrasenia": "alberto"
+    
+}
+
+
+### Obtener todos los productos  
+GET http://localhost:8000/api/productos.php
+Content-Type: application/json
+
+### Obtener los productos de la categoría BOCADITOS saca dulces y salados
+GET http://localhost:8000/api/productos.php?categoria=BOCADITOS
+Content-Type: application/json
+
+### Obtener los productos de la categoría subcategoria bocaditos, solo dulces
+GET http://localhost:8000/api/productos.php?subcategoria=dulces
+Content-Type: application/json
+
+### Obtener los productos de la categoría subcategoria bocaditos, solo dulces
+GET http://localhost:8000/api/productos.php?categoria=BOCADITOS&subcategoria=salados
+Content-Type: application/json
+
+
+### Crear un nuevo pedido,
+POST http://localhost:8000/api/pedidos.php
+Content-Type: application/json
+
+{
+  "productos": [
+    {"id_producto": 2, "cantidad": 1},
+    {"id_producto": 6, "cantidad": 2}
+  ],
+  "fecha_entrega": "2025-04-25",
+  "metodo_pago": "Tarjeta",
+  "telefono": "612345678",
+  "direccion_entrega": "Calle Vega 123"
+}
+
+### Crear un nuevo pedido,
+POST http://localhost:8000/api/pedidos.php
+Content-Type: application/json
+
+{
+  "productos": [
+    {"id_producto": 1, "cantidad": 1},
+    {"id_producto": 2, "cantidad": 1}
+  ],
+  "fecha_entrega": "2025-05-25",
+  "metodo_pago": "Tarjeta",
+  "telefono": "612345678",
+  "direccion_entrega": "Calle Carabelos, 5"
+}
+
+// pruebas para pedido
+### Obtener pedidos del usuario autenticado
+GET http://localhost:8000/api/pedidos.php?id_cliente=2
+Content-Type: application/json
+
+### Para cerrar sesión,
+POST http://localhost:8000/api/logout.php
+Content-Type: application/json
+
+{
+  
+}
+
+
+

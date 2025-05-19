@@ -1,0 +1,48 @@
+TiendaOnline/
+├── api/
+│   ├── checkout.php     # Configuración para el pago con Stripe
+│   ├── config.php       # Configuración de la conexión a la base de datos.
+│   ├── errors.log       # Registro de errores.
+│   ├── log_checkout.php # Registro de actividades de pago.
+│   ├── register.php     # Endpoints de registro de usuarios.
+│   ├── login.php        # Inicio de sesión.
+│   ├── logout.php       # Cierre de sesión.
+│   ├── pedidos.php     # Endpoints relacionados con pedidos.
+│   ├── productos.php    # Endpoints relacionados con productos.
+│   
+│
+├── public/
+│   ├── 
+│   ├── index.html //pagina principal
+│   ├── registerYlogin.html  # formulario de registro y login con sus ids
+│   ├── form.html  # formulario de pago 
+│   ├── register.html  # Detalle de un pedido.
+│   ├── carrito.html
+    ├── footer.html
+    ├── header.html
+    
+    |--└── success.html         # Página de éxito después de la operación de pago paypal.
+
+        
+     ├── img/
+         └── logos/         # logo (JPG de página en el encabezado)
+│        |── postres/       # Para tartas y postres principales
+│        |   ├── tarta-chocolate.jpg
+│        |   └── cheesecake.png
+│       
+│   
+│    ├── js/    
+        │   ├── mainProductos.js              # Lógica de interacción cliente-API.
+│           ├── carrito.js             # Lógica de interacción cliente-Api.
+            ├── registroYlogin.js    #Login, y registro de control de sesión
+            ├── pago.js               # Gestión de pasarella de pago(como PayPal)
+            
+    
+├── sql/
+│   ├── insert.sql           # Inserts a la base de datos.
+│   └── schema.sql           # Esquema de la base de dato.
+│
+├── paypal/                  # Carpeta con los archivos necesarios para el pago con Stripe
+│
+├── pruebas.http             # Archivo de pruebas HTTP.
+└── estructura.txt           # Archivo con la estructura del proyecto.

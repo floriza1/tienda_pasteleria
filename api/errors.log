@@ -1,0 +1,25 @@
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 23
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Attempt to read property "apellidos" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 24
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Attempt to read property "telefono" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 25
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Attempt to read property "email" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 26
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Attempt to read property "contrasenia" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 27
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 32
+[19-Apr-2025 13:00:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php:32
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 32
+[19-Apr-2025 13:02:05 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 23
+[19-Apr-2025 13:02:05 Europe/Berlin] PHP Warning:  Attempt to read property "apellidos" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 24
+[19-Apr-2025 13:02:05 Europe/Berlin] PHP Warning:  Attempt to read property "telefono" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 25
+[19-Apr-2025 13:02:05 Europe/Berlin] PHP Warning:  Attempt to read property "email" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 26
+[19-Apr-2025 13:02:05 Europe/Berlin] PHP Warning:  Attempt to read property "contrasenia" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 27
+[19-Apr-2025 13:03:51 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 23
+[19-Apr-2025 13:03:51 Europe/Berlin] PHP Warning:  Attempt to read property "apellidos" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 24
+[19-Apr-2025 13:03:51 Europe/Berlin] PHP Warning:  Attempt to read property "telefono" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 25
+[19-Apr-2025 13:03:51 Europe/Berlin] PHP Warning:  Attempt to read property "email" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 26
+[19-Apr-2025 13:03:51 Europe/Berlin] PHP Warning:  Attempt to read property "contrasenia" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 27
+[19-Apr-2025 13:16:35 Europe/Berlin] PHP Warning:  Attempt to read property "nombre" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 25
+[19-Apr-2025 13:16:35 Europe/Berlin] PHP Warning:  Attempt to read property "apellidos" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 26
+[19-Apr-2025 13:16:35 Europe/Berlin] PHP Warning:  Attempt to read property "telefono" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 27
+[19-Apr-2025 13:16:35 Europe/Berlin] PHP Warning:  Attempt to read property "email" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 28
+[19-Apr-2025 13:16:35 Europe/Berlin] PHP Warning:  Attempt to read property "contrasenia" on array in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\register.php on line 29

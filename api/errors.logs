@@ -1,0 +1,13 @@
+[18-Apr-2025 00:25:47 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: PDOStatement::execute(): Argument #1 ($params) must be of type ?array, int given in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php:49
+Stack trace:
+#0 C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php(49): PDOStatement->execute(1)
+#1 {main}
+  thrown in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 49
+[18-Apr-2025 00:33:02 Europe/Berlin] PHP Warning:  Undefined variable $precioTotal in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 62
+[18-Apr-2025 00:34:55 Europe/Berlin] PHP Warning:  Undefined variable $precioTotal in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 57
+[18-Apr-2025 00:37:23 Europe/Berlin] PHP Warning:  Undefined variable $precioTotal in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 57
+[18-Apr-2025 00:37:23 Europe/Berlin] PHP Warning:  Undefined variable $precioTotal in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 57
+[18-Apr-2025 11:10:48 Europe/Berlin] PHP Warning:  Undefined array key "precio_unitario" in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 71
+[18-Apr-2025 11:10:48 Europe/Berlin] PHP Warning:  Undefined array key "subtotal" in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 71
+[18-Apr-2025 11:15:38 Europe/Berlin] PHP Warning:  Undefined array key "precio_unitario" in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 71
+[18-Apr-2025 11:15:38 Europe/Berlin] PHP Warning:  Undefined array key "subtotal" in C:\xampp\htdocs\daw2_tarde\PHP\UD8\tienda_online\api\pedidos.php on line 71

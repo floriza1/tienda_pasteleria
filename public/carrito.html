@@ -1,0 +1,130 @@
+
+
+<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+     <!-- llamar a header  -->
+     <div id="header-container"></div>
+     <script src="js/mainProductos4.js"></script>
+  <main>
+    
+    <div class="container mt-5">
+        <div class="row g-5">
+          <!-- Carrito a la derecha -->
+          <div class="col-md-5 col-lg-4 order-md-last" id="cont-carrito">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+              <span class="text-primary">Tu carro</span>
+              <span class="badge bg-primary rounded-pill" id="cantidad-items">3</span>
+            </h4>
+            <ul class="list-group mb-3" id="lista-carrito">
+              <!-- Productos del carrito se cargan aquí dinámicamente -->
+            </ul>
+            <button class="btn btn-success mt-3" id="btnIrAPago">Ir al pago</button>
+
+          </div>
+      
+          <!-- Formulario a la izquierda -->
+          <div class="col-md-7 col-lg-8" id="cont-form-pago">
+            <h4>Dirección de envío</h4>
+            <form class="needs-validation was-validated" id="formPago" novalidate>
+              <div class="row">
+                <div class="col-sm-6 mb-3">
+                  <label for="nombrePago" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombrePago" placeholder="Juan" required>
+                  <div class="invalid-feedback">Se requiere un nombre válido</div>
+                </div>
+      
+                <div class="col-sm-6 mb-3">
+                  <label for="apellidoPago" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="apellidoPago" placeholder="Pérez" required>
+                  <div class="invalid-feedback">Se requiere un apellido válido</div>
+                </div>
+      
+                <div class="col-sm-6 mb-3">
+                  <label for="emailPago" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="emailPago" placeholder="tu@example.com" required>
+                  <div class="invalid-feedback">Se requiere un email válido</div>
+                </div>
+      
+                <div class="col-12 mb-3">
+                  <label for="direccionPago" class="form-label">Dirección</label>
+                  <input type="text" class="form-control" id="direccionPago" placeholder="1234 Calle Principal" required>
+                  <div class="invalid-feedback">Dirección requerida</div>
+                </div>
+                <div class="col-12 mb-3">
+                  <label for="telefonoPago" class="form-label">Teléfono</label>
+                  <input type="text" class="form-control" id="telefonoPago" placeholder="623346635" required>
+                  <div class="invalid-feedback">Teléfono requerido</div>
+                </div>
+      
+                <div class="col-sm-6 mb-3">
+                  <label for="fechaEntrega" class="form-label">Fecha de entrega</label>
+                  <input type="date" class="form-control" id="fechaEntrega" required>
+                  <div class="invalid-feedback">Fecha requerida</div>
+                </div>
+              </div>
+      
+              <hr class="my-4">
+              <h4 class="mb-3">Pago</h4>
+      
+              <div class="my-3" id="cont-form-check">
+                <div class="my-3" id="cont-form-check">
+                  <div class="form-check">
+                    <input type="radio" id="pagoTarjeta" name="metodoPago" class="form-check-input" value="Tarjeta" required>
+                    <label class="form-check-label" for="pagoTarjeta">Tarjeta de crédito</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" id="pagoTransferencia" name="metodoPago" class="form-check-input" value="Transferencia" required>
+                    <label class="form-check-label" for="pagoTransferencia">Transferencia</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" id="pagoPaypal" name="metodoPago" class="form-check-input" value="Paypal" checked required>
+                    <label class="form-check-label" for="pagoPaypal">PayPal</label>
+                  </div>
+                </div>
+             </div>
+      
+              <!-- <div class="row" id="cont-form-targeta">
+                <div class="col-md-6 mb-3">
+                  <label for="nombreTarjeta" class="form-label">Nombre en la tarjeta</label>
+                  <input type="text" class="form-control" id="nombreTarjeta" required>
+                  <div class="invalid-feedback">Nombre requerido</div>
+                </div>
+      
+                <div class="col-md-6 mb-3">
+                  <label for="numeroTarjeta" class="form-label">Número de tarjeta</label>
+                  <input type="text" class="form-control" id="numeroTarjeta" required>
+                  <div class="invalid-feedback">Número requerido</div>
+                </div>
+      
+                <div class="col-md-3 mb-3">
+                  <label for="vencimiento" class="form-label">Vencimiento</label>
+                  <input type="text" class="form-control" id="vencimiento" placeholder="MM/AA" required>
+                  <div class="invalid-feedback">Fecha requerida</div>
+                </div>
+      
+                <div class="col-md-3 mb-3">
+                  <label for="cvv" class="form-label">CVV</label>
+                  <input type="text" class="form-control" id="cvv" required>
+                  <div class="invalid-feedback">Código requerido</div>
+                </div>
+              </div> -->
+      
+              <hr class="my-4">
+              <button class="w-100 btn btn-primary btn-lg" type="submit">Continuar con el pago</button>
+            </form>
+          </div>
+      </div>
+   </main>  
+
+   <!-- llamar a footer -->
+   <div id="footer-container"></div>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+ 
+  <script src="js/layoutLoader.js"></script>
+
+</body>
